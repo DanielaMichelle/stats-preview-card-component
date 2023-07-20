@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL: 
+- Solution URL: https://github.com/DanielaMichelle/stats-preview-card-component
+- Live Site URL: https://danielamichelle.github.io/stats-preview-card-component/
 
 
 ### Built with

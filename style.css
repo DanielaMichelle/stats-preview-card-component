@@ -122,11 +122,29 @@ main {
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 768px) {
+    .stats-preview-card-component__content--indicators {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .indicator-box {
+        margin-bottom: 3rem;
+    }
+
+    .indicator-box p {
+        margin-bottom: 0.5rem;
+    }
+
+    .indicator-box span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 630px) {
 
     .stats-preview-card-component {
         grid-template-columns: none;
-        grid-template-rows: 1fr 2fr
     }
 
     .stats-preview-card-component__image {
@@ -146,22 +164,5 @@ main {
 
     .stats-preview-card-component__content--paragraph {
         font-size: 1.4rem;
-    }
-
-    .stats-preview-card-component__content--indicators {
-        flex-direction: column;
-        margin-top: 3rem;
-    }
-
-    .indicator-box {
-        margin-bottom: 3rem;
-    }
-
-    .indicator-box p {
-        margin-bottom: 0.5rem;
-    }
-
-    .indicator-box span {
-        font-size: 1.2rem;
     }
 }
